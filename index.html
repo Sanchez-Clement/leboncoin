@@ -14,29 +14,299 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+<script src="https://use.fontawesome.com/88840399dd.js"></script>
+
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+      <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-secondary hidden-lg-up d-flex flex-row justify-content-between align-items-center" id="navbas">
+                    <button class="navbar-toggler navbar-toggler btn btn-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">MENU</button>
+                    <a href="#"><img src="img/logo.svg" alt="logo" class="logo"></a>
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Déposer une annonce</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Offre</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Demande</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mes annonces sauvegardées</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mes recherches automatiques</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mes annonces en ligne</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Boutiques</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Se connecter</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Information pratiques</a>
+
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+
+                <nav>
+                  <a href="#"><img src="img/logo.svg" alt=""></a>
+                  <ul>
+                  <li><a href="">ACCUEIL</a></li>
+                  <li><a href="">DEPOSER UNE ANNONCE</a></li>
+                  <li><a href="">OFFRES</a></li>
+                  <li><a href="">DEMANDES</a></li>
+                  <li><a href="">MES ANNONCES</a></li>
+                  <li><a href="">BOUTIQUE</a></li>
+                  </ul>
+                  <a href="#">Se connecter</a>
+                </nav>
+
+
+
+
+
+
+      </header>
+
+      <main>
+<section>
+  <h1>Trouvez la bonne affaire parmi <span>27 270 683 petites annonces</span> sur leboncoin.</h1>
+  <a href="#">Déposer une annonce</a>
+  <a href="#">Rechercher autour de moi</a>
+  <article class="">
+    <h2>L'actualité leboncoin</h2>
+    <img src="img/ordi.jpg" alt="responsive">
+
+  </article>
+</section>
+<section class="hidden-lg-up">
+  <img src="img/france.jpg" alt="">
+  <select class="" name="">
+    <option value="">Choisissez une région</option>
+    <option value="">Alsace</option>
+    <option value="">Aquitaine</option>
+
+  </select>
+</section>
+<section class="hidden-md-down">
+  <img src="img/france.jpg" alt="" usemap="#Map" />
+<map name="Map" id="Map">
+    <area alt="" title="" href="#" shape="poly" coords="353,96,350,91,350,89,352,86,355,84,355,81,355,76,352,74,350,70,351,62,352,54,352,49,358,48,370,45,383,42,394,39,396,37,401,42,402,45,403,51,405,56,409,61,413,62,420,65,426,62,428,66,432,77,436,79,440,79,445,81,447,84,450,86,453,89,458,94,463,93,470,92,475,94,479,98,476,99,476,106,479,108,481,115,486,120,489,122,481,120,476,120,471,119,465,117,463,115,461,114,457,114,453,114,448,114,443,114,440,118,437,119,434,119,430,119,429,117,426,116,424,116,416,116,413,115,409,113,407,112,404,113,398,113,395,113,395,107,395,103,394,101,391,100,389,102,387,104,382,106,377,106,375,103,372,100,370,96,368,95,361,94,357,94" />
+    <area alt="" title="" href="#" shape="poly" coords="353,98,353,102,353,106,347,106,344,106,341,108,340,112,345,115,347,118,353,126,357,128,359,134,359,139,357,144,357,149,358,155,358,162,359,168,360,174,361,179,365,177,373,177,378,179,383,179,390,181,393,183,398,186,403,188,408,189,415,188,415,186,426,187,427,191,434,194,438,197,443,201,446,203,451,203,455,199,455,194,455,191,455,183,455,179,453,175,453,170,455,166,463,165,469,164,474,160,474,154,474,150,474,145,473,139,479,137,482,133,482,129,487,125,484,121,472,121,473,118,469,118,463,117,458,117,455,117,444,118,440,122,435,122,431,122,427,120,424,119,417,119,409,115,407,114,401,116,398,117,394,109,392,103,385,107,378,103,369,98,367,98,363,97,359,94" />
+
+</map>
+</section>
+<section class="hidden-md-down">
+  <ul>
+    <li><a href="">Alsace</a></li>
+    <li><a href="">Aquitaine</a></li>
+    <li><a href="">Auvergne</a></li>
+    <li><a href="">Basse-Normandie</a></li>
+    <li><a href="">Bourgogne</a></li>
+    <li><a href="">Bretagne</a></li>
+    <li><a href="">Centre</a></li>
+    <li><a href="">Champagne-Ardennes</a></li>
+    <li><a href="">Corse</a></li>
+    <li><a href="">Franche-conté</a></li>
+    <li><a href="">Haute-Normandie</a></li>
+    <li><a href="">Ile de France</a></li>
+    <li><a href="">Languedoc-Roussillon</a></li>
+    <li><a href="">Limousin</a></li>
+    <li><a href="">Lorrainne</a></li>
+    <li><a href="">Midi-pyrennées</a></li>
+    <li><a href="">Nord-Pas de calais</a></li>
+    <li><a href="">Pays de la loire</a></li>
+    <li><a href="">Picardie</a></li>
+    <li><a href="">Poitou-Charentes</a></li>
+    <li><a href="">PACA</a></li>
+    <li><a href="">Rhone-alpes</a></li>
+    <br>
+    <li><a href="">Guadeloupe</a></li>
+    <li><a href="">martinique</a></li>
+    <li><a href="">Guyane</a></li>
+    <li><a href="">Réunion</a></li>
+  </ul>
+</section>
+<section>
+  <p>ur le site <a href="#">leboncoin.fr</a>, passez des <a href="#">annonces gratuites</a> et sans commission. Vous pouvez <a href="#">consulter des petites annonces</a> de <a href="#">particuliers</a> et de <a href="#">professionnels</a> partout en France, que vous cherchiez des annonces immobilières, des voitures d'occasion, des offres d'emploi, des meubles, du matériel électronique ou tout autre type de produits d'occasion.</p>
+</section>
+<section class="hidden-md-down">
+  <ul>
+    <li><a href="">Emploi</a></li>
+    <li><a href="">Offre d'emploi</a></li>
+    <li><a href="">Vehicules</a></li>
+    <li><a href="">Voitures</a></li>
+    <li><a href="">Motos</a></li>
+    <li><a href="">caravaning</a></li>
+    <li><a href="">Utilitaires</a></li>
+    <li><a href="">Equipement Auto</a></li>
+    <li><a href="">Equipement Moto</a></li>
+    <li><a href="">Equipement caravanning</a></li>
+    <li><a href="">Nautisme</a></li>
+    <li><a href="">Equipement nautisme</a></li>
+    <li><a href="">Immobillier</a></li>
+    <li><a href="">Locations</a></li>
+    <li><a href="">Collocations</a></li>
+    <li><a href=""> Bureaux et commerces</a></li>
+
+  </ul>
+  <ul>
+    <li><a href="">Vacaces</a></li>
+    <li><a href="">Locations et gites</a></li>
+    <li><a href="">Chambre d'hotes</a></li>
+    <li><a href="">Camping</a></li>
+    <li><a href="">Hotels</a></li>
+    <li><a href="">Hébergements insolites</a></li>
+    <li><a href="">Maison</a></li>
+    <li><a href="">ammeublement</a></li>
+    <li><a href="">Electromenager</a></li>
+    <li><a href="">Arts de la table</a></li>
+    <li><a href="">Décoration</a></li>
+    <li><a href="">Linge de maison</a></li>
+    <li><a href="">Bricolage</a></li>
+    <li><a href="">jardinage</a></li>
+    <li><a href="">vetements/a></li>
+    <li><a href="">Chaussures</a></li>
+    <li><a href="">Accessoires et bagagerie</a></li>
+    <li><a href="">Montres et bijoux</a></li>
+    <li><a href="">Equiepments bébé</a></li>
+    <li><a href="">vetements bébé</a></li>
+  </ul>
+  <ul>
+    <li><a href="">Multimedia</a></li>
+    <li><a href="">Informatiques</a></li>
+    <li><a href="">Consoles et jeux video</a></li>
+    <li><a href="">images et son</a></li>
+    <li><a href="">téléphonie</a></li>
+    <li><a href="">Loisirs</a></li>
+    <li><a href="">dvd et films</a></li>
+    <li><a href="">cd / musique</a></li>
+    <li><a href="">livres</a></li>
+    <li><a href="">Animaux</a></li>
+    <li><a href="">Vélos</a></li>
+    <li><a href="">Sports et hobbies</a></li>
+    <li><a href="">Instruments de musique</a></li>
+    <li><a href="">Collection</a></li>
+    <li><a href="">jeux et jouets</a></li>
+    <li><a href="">Vins et gastronomie</a></li>
+  </ul>
+  <ul>
+    <li><a href="">Matériel proffesionnel</a></li>
+    <li><a href="">Matériel agricole</a></li>
+    <li><a href="">transport-manutention</a></li>
+    <li><a href="">btp chantier gros-oeuvres</a></li>
+    <li><a href="">Outillage-matériaux second oeuvre</a></li>
+    <li><a href="">equiepements industriel</a></li>
+    <li><a href="">restauration-hotellerie</a></li>
+    <li><a href="">Fournitures de bureau</a></li>
+    <li><a href="">Commerces et marches</a></li>
+    <li><a href="">matériel médical</a></li>
+    <li><a href="">services</a></li>
+    <li><a href="">prestations de services</a></li>
+    <li><a href="">billeterie</a></li>
+    <li><a href="">evenements</a></li>
+    <li><a href="">Cours particuliers</a></li>
+    <li><a href="">co-voiturage</a></li>
+    <li><a href="">Autres</a></li>
+    <li><a href="">Autres</a></li>
+  </ul>
+</section>
+<footer>
+
+  <section>
+    <h3>A PROPOS DU BONCOIN</h3>
+    <ul>
+      <li><a href="#">Qui sommes nous ?</a></li>
+      <li><a href="#">Nous rejoindre</a></li>
+      <li><a href="#">Impact environnemental</a></li>
+    </ul>
+    <h3>nos applications</h3>
+    <ul>
+      <li><a href="#"><img src="img/appstore.png" alt=""></a></li>
+      <li><a href="#"><img src="img/googleplay.png" alt=""></a></li>
+    </ul>
+  </section>
+  <section>
+    <h3>INFORMATION LEGALES</h3>
+    <ul>
+
+
+  li><a href="#">Conditions générales d'utilisations</a></li>
+  li><a href="#">Régles de diffusions</a></li>
+  li><a href="#">Conditions générales de ventes</a></li>
+  li><a href="#">Vie privée et coockies</a></li>
+  li><a href="#">Vos droits et obligations</a></li>
+      </ul>
+  </section>
+  <section>
+    <h3>PROFESSIONELS</h3>
+    <ul>
+    <li><a href="#">Publicité</a></li>
+    <li><a href="#">Professionels de l'immobilier</a></li>
+    <li><a href="#">Vos recrutements</a></li>
+    <li><a href="#">Toutes nos solutions pro</a></li>
+    </ul>
+  </section>
+  <section>
+    <h3>Des question</h3>
+    <ul>
+      <li><a href="#">Aide</a></li>
+      <li><a href="#">Nous contacter</a></li>
+    </ul>
+    <h3>Vous etes à l'étranger</h3>
+    <button type="button" name="button"></button>
+  </section>
+  <article class="">
+    <p>Partenaires : Younited Credit - Kudoz - Agriaffaires - MachineryZone - leDénicheur - Swipsi</p>
+
+  </article>
+  <section>
+    <p>leboncoin 2006 - 2017</p>
+    <p>Retrouvez-nous sur :<i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-twitter-square" aria-hidden="true"></i>
+
+</p>
+  </section>
+</footer>
+
+
+
+
+      </main>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/bootstrap.js"></script>  
+        <script src="js/bootstrap.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+
     </body>
 </html>
