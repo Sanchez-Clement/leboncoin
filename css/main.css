@@ -171,24 +171,34 @@ h1 span {
 
 
 
-
+#navpc a {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
 
 #navpc img {
   width: 120px;
 }
-#navpc a:first-child {
-  width: 170px;
+
+
+#connecter {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 10;
+  height: 53px;
+  margin:-10px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
-#navpc a {
-  font-size: 13px;
+
+#connecter:hover {
+  background-color: white;
+  color: #F56B2A;
 }
-
-#navpc ul {
-  display: inline-flex;
-}
-
-
-
 
 
 #deposer {
