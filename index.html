@@ -7,6 +7,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+        <script src="https://use.fontawesome.com/01d5fc61d4.js"></script>
+
+
+
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
@@ -14,9 +19,8 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-<script src="https://use.fontawesome.com/88840399dd.js"></script>
 
     </head>
     <body>
@@ -97,25 +101,36 @@
 
       </header>
 
-      <main>
-<section>
-  <h1>Trouvez la bonne affaire parmi <span>27 270 683 petites annonces</span> sur leboncoin.</h1>
-  <a href="#">Déposer une annonce</a>
-  <a href="#">Rechercher autour de moi</a>
-  <article class="">
+      <main class="container">
+<section class="d-flex flex-column justify-content-around align-items-center" id="deposer">
+  <h1 >Trouvez la bonne affaire parmi <span>27 270 683 petites annonces</span> sur leboncoin.</h1>
+  <a href="#" class="btn btn-primary">Déposer une annonce</a>
+  <a href="#" class="btn btn-secondary">Rechercher autour de moi</a>
+
+  <article class="hidden-md-down">
     <h2>L'actualité leboncoin</h2>
     <img src="img/ordi.jpg" alt="responsive">
 
   </article>
-</section>
-<section class="hidden-lg-up">
-  <img src="img/france.jpg" alt="">
-  <select class="" name="">
-    <option value="">Choisissez une région</option>
-    <option value="">Alsace</option>
-    <option value="">Aquitaine</option>
 
-  </select>
+</section>
+<section class="hidden-lg-up d-flex flex-column justify-content-around align-items-center" id="cartesansclick">
+  <img src="img/france.jpg" alt="">
+  <div class="btn-group dropup">
+
+
+<button id="choisissez" type="button" class="btn btn-secondary dropdown-toggle d-flex justify-content-between" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Choissiez votre région :
+  <span class="sr-only">Toggle Dropdown</span>
+</button>
+  <div class="dropdown-menu" >
+      <a class="dropdown-item" href="#">Choissisez votre région</a>
+      <a class="dropdown-item" href="#">Alsace</a>
+      <a class="dropdown-item" href="#">Aquitaine</a>
+    </div>
+  </div>
+
+
 </section>
 <section class="hidden-md-down">
   <img src="img/france.jpg" alt="" usemap="#Map" />
@@ -156,8 +171,12 @@
     <li><a href="">Réunion</a></li>
   </ul>
 </section>
-<section>
-  <p>ur le site <a href="#">leboncoin.fr</a>, passez des <a href="#">annonces gratuites</a> et sans commission. Vous pouvez <a href="#">consulter des petites annonces</a> de <a href="#">particuliers</a> et de <a href="#">professionnels</a> partout en France, que vous cherchiez des annonces immobilières, des voitures d'occasion, des offres d'emploi, des meubles, du matériel électronique ou tout autre type de produits d'occasion.</p>
+<section class="hidden-lg-up" id="nouveaute">
+  <img src="img/nouveaute.jpg" alt="">
+
+</section>
+<section id="surlesite">
+  <p>Pour le site <a href="#">leboncoin.fr</a>, passez des <a href="#">annonces gratuites</a> et sans commission. Vous pouvez <a href="#">consulter des petites annonces</a> de <a href="#">particuliers</a> et de <a href="#">professionnels</a> partout en France, que vous cherchiez des annonces immobilières, des voitures d'occasion, des offres d'emploi, des meubles, du matériel électronique ou tout autre type de produits d'occasion.</p>
 </section>
 <section class="hidden-md-down">
   <ul>
@@ -240,9 +259,11 @@
     <li><a href="">Autres</a></li>
   </ul>
 </section>
-<footer>
 
-  <section>
+</main>
+<footer class="container-fluid">
+
+  <section class="hidden-md-down">
     <h3>A PROPOS DU BONCOIN</h3>
     <ul>
       <li><a href="#">Qui sommes nous ?</a></li>
@@ -255,7 +276,7 @@
       <li><a href="#"><img src="img/googleplay.png" alt=""></a></li>
     </ul>
   </section>
-  <section>
+  <section class="hidden-md-down">
     <h3>INFORMATION LEGALES</h3>
     <ul>
 
@@ -267,7 +288,7 @@
   li><a href="#">Vos droits et obligations</a></li>
       </ul>
   </section>
-  <section>
+  <section class="hidden-md-down">
     <h3>PROFESSIONELS</h3>
     <ul>
     <li><a href="#">Publicité</a></li>
@@ -276,7 +297,7 @@
     <li><a href="#">Toutes nos solutions pro</a></li>
     </ul>
   </section>
-  <section>
+  <section class="hidden-md-down">
     <h3>Des question</h3>
     <ul>
       <li><a href="#">Aide</a></li>
@@ -285,13 +306,14 @@
     <h3>Vous etes à l'étranger</h3>
     <button type="button" name="button"></button>
   </section>
-  <article class="">
+  <article class="hidden-md-down">
     <p>Partenaires : Younited Credit - Kudoz - Agriaffaires - MachineryZone - leDénicheur - Swipsi</p>
 
   </article>
-  <section>
+  <section class="d-flex justify-content-between align-items-center " id="footbas">
     <p>leboncoin 2006 - 2017</p>
-    <p>Retrouvez-nous sur :<i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-twitter-square" aria-hidden="true"></i>
+    <p>Retrouvez-nous sur :<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+</a><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 
 </p>
   </section>
@@ -300,7 +322,7 @@
 
 
 
-      </main>
+<script src="https://use.fontawesome.com/01d5fc61d4.js"></script>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

@@ -35,6 +35,7 @@ header {
   position: absolute;
   top:50px;
   left:0;
+  z-index: 10;
 
   background-color: #E0F2FF;
   width: 80%;
@@ -66,3 +67,74 @@ header {
 }
 
 ******************************************************fin header***********************************************
+#titre {
+
+}
+
+h1{
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-align: center;
+  margin-top: 20px !important;
+}
+h1 span {
+  color: #F56B2A;
+}
+
+/**************************************section déposer***************************************************/
+
+ #deposer .btn.btn-secondary
+{
+  color: #4C94EF;
+  border-color: #4C94EF;
+}
+
+#deposer a {
+  width: 290px;
+}
+
+#deposer {
+  height: 250px;
+}
+
+
+#cartesansclick img {
+  width : 100%;
+  margin-bottom: 30px;
+}
+
+.btn-group.dropup {
+  width: 100%;
+}
+#choisissez {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.dropdown-menu {
+  width: 100%
+}
+
+#nouveaute, #nouveaute img {
+  width: 100%;
+}
+
+#nouveaute {
+  margin-bottom: 30px;
+}
+
+#surlesite {
+  font-size: 12px ;
+  font-weight: bold ;
+  text-align: center;
+}
+
+footer {
+  background-color: #474747;
+}
+
+#footbas p {
+  color: white;
+  font-size: 12px;
+  margin-top: 16px;
+}
