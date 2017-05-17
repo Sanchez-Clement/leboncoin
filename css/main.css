@@ -17,9 +17,10 @@ header {
 #navphone button {
   background-color: white;
   color: #F56B2A;
-  width: 60px;
+  width: 68px;
   padding: 10px;
   font-size: 15px;
+  margin: 10px;
 }
 
 #leboncoin {
@@ -31,11 +32,11 @@ header {
   width: 100%;
 }
 
-#navbarSupportedContent {
+#navbarSupportedContent ul{
   position: absolute;
   top:50px;
   left:0;
-  z-index: 10;
+  z-index: 20;
 
   background-color: #E0F2FF;
   width: 80%;
@@ -55,7 +56,28 @@ header {
 
 }
 
-#navbarSupportedContent li:hover {
+#navbarSupportedContent .top {
+  background-color: #F56B2A;
+  position: relative;
+  height: 50px;
+}
+
+.top button {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+#navbarSupportedContent img {
+  width: 30%;
+}
+
+#navbarSupportedContent ul {
+  padding-left: 0
+}
+
+
+#navbarSupportedContent .liste:hover {
 
 
   background-color: white;
@@ -65,6 +87,8 @@ header {
   color: #F56B2A;
 
 }
+
+
 
 ******************************************************fin header***********************************************
 #titre {
@@ -95,6 +119,7 @@ h1 span {
 
 #deposer {
   height: 250px;
+  margin: auto;
 }
 
 
@@ -129,12 +154,151 @@ h1 span {
   text-align: center;
 }
 
-footer {
+.backnoir {
   background-color: #474747;
 }
+
+
 
 #footbas p {
   color: white;
   font-size: 12px;
   margin-top: 16px;
+}
+
+/**************************************************************************pc*******************************************/
+@media (min-width:992px){
+
+
+
+
+
+#navpc img {
+  width: 120px;
+}
+#navpc a:first-child {
+  width: 170px;
+}
+#navpc a {
+  font-size: 13px;
+}
+
+#navpc ul {
+  display: inline-flex;
+}
+
+
+
+
+
+#deposer {
+  height: 500px;
+  margin: 0;
+
+}
+#deposer h1 {
+  margin-bottom: 30px;
+}
+
+#deposer a {
+
+  width: 100%;
+}
+
+#deposer img {
+  width: 90%;
+  margin: auto;
+}
+
+h2 {text-align: center;}
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.card-header {
+  background-color: #666666!important;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;}
+
+  #mapfrance img {
+    width: 100%;
+  }
+#region li {
+  text-align: right;
+  font-size: 14px;
+}
+
+#region li a {
+  color: #369;
+  font-weight: bold;
+}
+
+#region li a:hover {
+  color: #F56B2A;
+}
+
+#region {
+  margin-top: 15px;
+}
+/**************************************************************footer*******************************/
+
+.backbleu {
+  background-color: #FAFAFA;
+}
+
+footer .title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d1d1d1;
+  font-weight: bold;
+}
+
+#categories a {
+  font-size: 12px;
+  color: #369;
+}
+
+footer h3 {
+  margin-bottom: 14px;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.backnoir ul {
+  padding-left: 0;
+  line-height: 2.5;
+}
+
+.backnoir li a {
+  color: white;
+  font-size: 15px;
+}
+
+.backnoir section {
+  margin-top: 20px;
+}
+
+#appstore img {
+  width: 118px;
+  margin-right: 10px;
+}
+
+#partenaires {
+  border-bottom: 1px solid #666;
+  border-top: 1px solid #666;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 13px;
+
+}
+
 }
