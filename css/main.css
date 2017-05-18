@@ -173,6 +173,7 @@ h1 span {
   stroke:#3D6ABE ;
   stroke-opacity: 1;
   stroke-width:0.5;
+  transition: fill 0.3s;
 }
 
 #mapfrance a path:hover {
@@ -182,6 +183,7 @@ h1 span {
   stroke:#3D6ABE ;
   stroke-opacity: 1;
   stroke-width:0.5;
+  transition: fill 0.3s;
 
 }
 
