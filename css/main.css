@@ -324,7 +324,9 @@ footer h3 {
 .backnoir section {
   margin-top: 20px;
 }
-
+#noir {
+  margin: 0;
+}
 #appstore img {
   width: 118px;
   margin-right: 10px;
