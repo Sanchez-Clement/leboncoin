@@ -198,6 +198,10 @@ h1 span {
   font-size: 14px;
 }
 
+#navpc a:hover {
+  text-decoration: underline;
+}
+
 #navpc img {
   width: 120px;
 }
