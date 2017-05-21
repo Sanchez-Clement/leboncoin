@@ -131,7 +131,7 @@ h1 span {
 .btn-group.dropup {
   width: 100%;
 }
-#choisissez {
+#choisissez, #langue {
   width: 100%;
   margin-bottom: 30px;
 }
@@ -192,22 +192,22 @@ h1 span {
 
 
 
-#navpc a {
+#navpc a, #navpc1 a {
   color: white;
   font-weight: bold;
   font-size: 14px;
 }
 
-#navpc a:hover {
+#navpc a:hover ,#navpc1 a:hover {
   text-decoration: underline;
 }
 
-#navpc img {
+#navpc img, #navpc1 img {
   width: 120px;
 }
 
 
-#connecter {
+#connecter, #connecter1 {
   background-color: transparent;
   color: white;
   text-decoration: none;
@@ -220,7 +220,7 @@ h1 span {
   border-right: 1px solid white;
 }
 
-#connecter:hover {
+#connecter:hover, #connecter1:hover {
   background-color: white;
   color: #F56B2A;
 }
